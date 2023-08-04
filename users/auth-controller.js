@@ -1,4 +1,4 @@
-import * as usersDao from "./users-dao.js";
+import * as usersDao from "./users-doo.js";
 
 
 const AuthController = (app) => {
@@ -37,7 +37,7 @@ const AuthController = (app) => {
         res.sendStatus(200);
       };     
  const update   = (req, res) => { 
-    
+
  };
  app.post("/api/users/register", register);
  app.post("/api/users/login",    login);
